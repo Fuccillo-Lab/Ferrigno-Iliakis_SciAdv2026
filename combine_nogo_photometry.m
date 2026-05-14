@@ -1,0 +1,12 @@
+% Script to combine nogo photometry across sessions
+
+mean_cr_traces_combined = combine_days_photometry_traces(mean_cr_traces);
+mean_fa_traces_combined = combine_days_photometry_traces(mean_fa_traces);
+
+peak_amplitude_cr_traces_combined = combine_days_photometry(peak_amplitude_cr_traces);
+baseline_mean_cr_traces_combined = combine_days_photometry(baseline_mean_cr_traces);
+baseline_subtracted_peak_amplitude_cr_traces_combined = combine_days_photometry(baseline_subtracted_peak_amplitude_cr_traces);
+
+peak_amplitude_fa_traces_combined = combine_days_photometry(peak_amplitude_fa_traces);
+baseline_mean_fa_traces_combined = combine_days_photometry(baseline_mean_fa_traces);
+baseline_subtracted_peak_amplitude_fa_traces_combined = combine_days_photometry(baseline_subtracted_peak_amplitude_fa_traces);
